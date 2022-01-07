@@ -1,33 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
-body{
-    background-color:steelblue;
-    padding: 2%;
-    margin: 0 10%;
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap");
+body {
+  background-color: steelblue;
+  padding: 2%;
+  margin: 0 10%;
+  font-family: "Signika Negative", sans-serif;
 }
 h1 {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Signika Negative', sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
-label {
-    color: white;
-    font-family: 'Signika Negative', sans-serif;
-}
+
 li {
-    list-style: none;
-    margin-bottom: 5px;
-    font-family: 'Signika Negative', sans-serif;
-    color: white;
+  list-style: none;
+  margin-bottom: 5px;
+  color: white;
 }
-
+button {
+  padding: 5px 25px;
+  border: 1px solid #e2dfdf;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:active {
+  filter: brightness(80%);
+}
+input[type="text"] {
+  padding: 6px;
+  border: none;
+}
 a.enlace-eliminar {
-    margin-left: 10px;
-    text-decoration: none;
-    font-size: 2rem;
-    color: white;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
 }
-
 .tachado {
-    text-decoration: line-through 2px solid rgb(190, 190, 190);
-    color: black;
+  text-decoration: line-through 2px solid rgb(190, 190, 190);
+  color: black;
 }
