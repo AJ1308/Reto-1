@@ -1,8 +1,13 @@
-@import url(vars.css);
+body{
+    background-color: bisque;
+}
 h1 {
     text-align: center;
+    color: blue;
 }
-
+label {
+    color: crimson;
+}
 li {
     list-style: none;
     margin-bottom: 5px;
