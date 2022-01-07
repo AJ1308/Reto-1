@@ -1,26 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
 body{
-    background-color: bisque;
+    background-color:steelblue;
 }
 h1 {
     text-align: center;
-    color: blue;
+    color: rgb(255, 255, 255);
     font-family: 'Signika Negative', sans-serif;
 }
 label {
-    color: crimson;
+    color: white;
     font-family: 'Signika Negative', sans-serif;
 }
 li {
     list-style: none;
     margin-bottom: 5px;
     font-family: 'Signika Negative', sans-serif;
+    color: white;
 }
 
 a.enlace-eliminar {
     margin-left: 10px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2rem;
+    color: white;
 }
 
 .tachado {
